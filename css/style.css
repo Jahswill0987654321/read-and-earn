@@ -1,0 +1,282 @@
+    *{
+        
+        margin: 0;
+        padding: 0;
+
+    }
+    body{
+        margin: 0;
+        padding: 0;
+        height: auto;
+        width:auto;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        overflow-x: hidden;
+    }
+ .div1{
+    background: url("../image/book.webp") center no-repeat;
+    position: relative;
+    background-size: cover;
+    background-attachment: fixed;
+    display: block;
+    min-height: 200px;
+    height: 100%;
+    width: 100%;
+ }
+ h2{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 30px;
+    margin-bottom: 20px;
+ }
+ .nav_bar{
+    margin: 10px 0px 0 20px;
+    height: 100%;
+    width: 100%;
+ }
+ .button{
+    margin:0 0px;
+    padding: 0;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    display: inline-block;
+    width: 100%;
+ }
+ #login {
+    float: left;
+    margin-right: 10px;
+    margin-left: 0;
+    background-color: transparent;
+    color: black;
+    transition: 1%;
+
+ }
+ .button_style{
+    height: 36px;
+    width: 106px;
+    margin-top: 10px;
+    position: relative;
+    left: 1450px;
+    padding: 3px 10px;
+    border-radius: 8px;
+    border: 3px solid;
+    background-color: transparent;
+    font-weight:900;
+    text-transform: uppercase;
+ }
+#login:hover{
+    background-color: gray;
+    border-style: dotted;
+    transition:250ms;
+}
+#signup:hover{
+    background-color: black;
+    border-style: dotted;
+    transition:250ms;
+    color: #fff;
+}
+.nav_list{
+    text-decoration-line: none;
+    border: 1px solid;
+    height: 36px;
+    width: 106px;
+    margin-top: 10px;
+    position: relative;
+    left: 900px;
+    top: 20px;
+    padding: 3px 10px;
+    border-radius: 8px;
+    border: 3px solid;
+    background-color: transparent;
+    font-weight:900;
+    margin-right: 50px;
+    border: none;
+    font-size: 20px;
+    color: black;
+}
+.nav_bar2{
+    text-transform: uppercase;
+    margin:0 0px;
+    padding: 0;
+    position: absolute;
+    top: 10px;
+    display: inline-block;
+    width: 100%;
+    
+}
+.nav_list:hover{
+    color: orange;
+}
+.form{
+    width: 100%;
+    text-align: center;
+}
+.search{
+    background-attachment: fixed;
+    width: 50%;
+    position: relative;
+    top: 300px;
+    height: 80px;
+    border: none;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius:30px ;
+    border-top-right-radius:30px ;
+    background-color: transparent;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+    border-color: grey;
+}
+.search:hover{
+border-left: 1px solid;
+border-right: none;
+border-bottom: 1px solid;
+border-top: 1px solid;
+border-color: grey;
+}
+.read_and_earn{
+    position: relative;
+    top: 300px;
+    height: 80px;
+    text-align:center;
+    font-size: 70px;  
+    color: #333;
+}
+.and{
+    color:goldenrod;
+}
+.and:hover{
+    text-decoration: underline;
+    color: orchid;
+    font-family:monospace;
+}
+.div2{
+    background: url("../image/book.webp") center no-repeat ;
+    background-attachment: fixed;
+    position: absolute;
+    top: 83%;
+    background-size: cover;
+    display: block;
+    min-height: fit-content;
+    height: 1000px;
+    width: 100%;
+}
+.div3{
+  width: auto;
+  height: 100%;
+  position: absolute;
+  right:406px;
+  top: 428px;
+}
+.search_icon{
+    width: 80px;
+    height:80px;
+    margin-top:12px ;
+    border: 1px solid;
+    border-bottom-right-radius:30px ;
+    border-top-right-radius:30px ;
+    border-left: none;
+    
+}
+.search_icon{
+    text-transform: uppercase;
+}
+.search_icon:hover{
+    cursor: pointer;
+    background-color: orange;
+}
+.jornals{
+    width: 90%;
+    height:400px;
+    background-color: blue;
+   position: absolute;
+   left:98px ;
+   right: 130px;
+   top: 60px;
+   bottom: 20px;
+   padding: 10px;
+   background-color: transparent;
+   
+}
+.first_jornals{
+    background-color: transparent;
+    height: 95%;
+    width: 20%;
+    display: inline-block;
+    position: absolute;
+    left: 30px;
+    margin-left: 10px;
+    top: 10px;
+    border: #333 solid;
+   
+
+}
+#jornal_1{
+    position:absolute;
+    left: 30px;
+    /*background-image: url("../image/journals.jpg");*/
+    background-position: center;
+    background-position-x:center;
+    background-size:100%;
+    background-repeat: no-repeat;
+    background-color: #333;
+
+
+}
+#jornal_2{
+    position: absolute;
+    left: 400px;
+
+}
+#jornal_3{
+    position: absolute;
+    left: 800px;
+}
+#jornal_4{
+    position: absolute;
+    left: 1170px;
+    
+}
+#jornal_5{
+    position:absolute;
+    left: 30px;
+    top: 500px;
+}
+#jornal_6{
+    position:absolute;
+    left: 400px;
+    top: 500px;
+}
+#jornal_7{
+    position:absolute;
+    left: 800px;
+    top: 500px;
+}
+#jornal_8{
+    position:absolute;
+    left: 1170px;
+    top: 500px;
+}
+img{
+    width: 90%;
+    height:80%;
+   top: 60px;
+   bottom: 20px;
+   padding: 10px;
+    position:absolute;
+    left: 500px;
+    display: inline-block;
+    left: 50px;
+    margin-left: 10px;
+    top: 10px;
+}
+
+
+
+
+
